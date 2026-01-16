@@ -12,7 +12,7 @@ dados = {
 df = pd.DataFrame(dados)
 st.dataframe(df)
 
-#Gráfico
+
 plt.plot(df['Mês'] , df['Vendas'])
 plt.xlabel('Mês')
 plt.xlabel('Vendas')
